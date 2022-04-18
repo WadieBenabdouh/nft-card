@@ -51,8 +51,8 @@ body{
     align-items: center;
 }
 
-.eth-prc{
-    color:hsl(178, 100%, 50%);
+ul li .eth-prc{
+    color:hsl(178, 100%, 50%)
 }
 .duration{
     color: hsl(215, 51%, 70%);
@@ -86,7 +86,11 @@ ul .icon-watch{
 @media (max-width:768px) {
     
     .card-container{
-        width: 40em;
+        /* width: 40em; */
         margin: 10em 30px;
+    }
+
+    #coin-art{
+        max-width: 10em;
     }
 }
