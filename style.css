@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(215, 94%, 14%);
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    width: 375px;
+    /* outline: red 1px solid; */
+    margin: 20px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(30, 59, 97);
+    border-radius: 10px;
+}
+
+.container h2{
+    padding: 0 20px;
+    margin: 0 15px;
+    color: #fff;
+}
+.container p{
+    max-width: 356px;
+    padding: 0 10px;
+    margin: 10px 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+#coin-art{
+    max-width: 250px;
+    padding: 25px 0;
+    border-radius: 15%;
+    overflow: hidden;
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    list-style: none;
+    align-items: center;
+}
+
+.eth-prc{
+    color:hsl(178, 100%, 50%);
+}
+.duration{
+    color: hsl(215, 51%, 70%);
+}
+
+ul .icon-eth{
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+
+ul .icon-watch{
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+
+
+.credits{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: center;
+    
+}
+.credits #avatar{
+    max-width: 40px;
+}
+
+/* MEDIA QUERY */
+@media (max-width:768px) {
+    
+    .card-container{
+        width: 40em;
+        margin: 10em 30px;
+    }
+}
